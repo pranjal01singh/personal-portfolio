@@ -1,0 +1,57 @@
+
+
+PRANJAL SINGH 
+Full Stack Software Developer (MERN) | Gen AI & LLM Integration | AI Agents & Automation | RAG 
++91 8791129137  |  spranjal0137@gmail.com  |  GitHub |  LinkedIn |  Ghaziabad, Uttar Pradesh, India 
+PROFESSIONAL SUMMARY 
+Results-driven Full Stack Software Developer and B.Tech CSE student at AKTU with hands-on experience building and deploying full-
+stack web applications and AI agent automation systems using React.js, Node.js, Express.js, MongoDB, Docker, and n8n. Proficient in 
+Generative AI, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Prompt Engineering, AI Agent Orchestration, 
+and Vector Databases. Experienced with REST API design, JWT/OAuth2 authentication, containerized deployment (Docker), CI/CD, and 
+cloud hosting via Vercel and Render. Seeking a Software Developer / Full Stack Developer internship to contribute to real-world, 
+production-grade products. 
+TECHNICAL SKILLS 
+Programming Languages: JavaScript (ES6+), Java 
+Frontend: React.js, Next.js, HTML5, CSS3, Tailwind CSS, Responsive Design, API Integration 
+Backend: Node.js, Express.js, REST API Development, JWT Authentication & Authorization, OAuth2, Role-Based Access Control 
+(RBAC), OTP Verification, SQL, MongoDB, Mongoose 
+Gen AI & ML: Large Language Models (LLMs), Prompt Engineering, RAG (Retrieval-Augmented Generation), Vector Databases, 
+Embeddings, AI Agents, Gemini API (Gemini 2.5 Flash, Embedding 001), Groq API, OpenAI API, Speech Recognition API 
+Automation & Integration: n8n Workflow Orchestration, Webhooks, Gmail API, Google Calendar API, Slack API, GitHub API, Jira 
+API, Notion API 
+Databases: MongoDB Atlas, MongoDB Atlas Vector Search, SQL, NoSQL Database Design 
+DevOps & Tools: Docker, Git, GitHub, CI/CD (Vercel/Render pipelines), Postman, Vercel, Render, PDF Processing, Text Extraction 
+PROJECTS 
+AI Employee Digital Twin  |  In Progress | Expected Completion: Aug 2026 
+Tech Stack: React.js, Node.js, Express.js, Docker, n8n, OpenAI API, JWT, OAuth2, Gmail/Slack/GitHub/Jira/Calendar/Notion APIs 
+• Designing an AI agent-based workforce automation platform that performs employee-like daily tasks such as email triage, calendar 
+checks, Slack/Teams summarization, Jira updates, GitHub PR analysis, and automated daily reporting across 6+ integrated services. 
+• Completed UI/UX design for the platform; developing secure authentication (Email/Password, OTP, Google OAuth2, JWT, RBAC) 
+and a Dockerized backend for consistent local and production environments. 
+• Architecting n8n-based workflows to connect Gmail, Calendar, Slack, GitHub, Jira, and Notion into a unified AI agent layer for 
+autonomous task execution. 
+AI Mock Interview Platform 
+Tech Stack: React.js, Node.js, Express.js, MongoDB Atlas, Gemini API, JWT, RAG, Vector Search, Docker 
+• Built a full-stack AI-powered mock interview platform simulating real interview experiences through dynamic, role-specific question 
+generation using the Gemini API and Prompt Engineering. 
+• Implemented a RAG pipeline with Gemini Embedding 001 and MongoDB Atlas Vector Search, improving relevance of retrieved 
+context for AI-generated follow-up questions. 
+• Built secure JWT-based authentication with interview history tracking and personalized dashboards; containerized with Docker and 
+deployed via Vercel and Render with CI/CD, cutting manual deployment steps. 
+Virtual Assistant 
+Tech Stack: React.js, Node.js, Express.js, MongoDB, Groq API, Bcrypt 
+• Developed a JARVIS-style AI virtual assistant using the MERN stack with real-time voice input/output via the Web Speech API and 
+low-latency responses powered by the Groq API. 
+• Implemented secure authentication using JWT and Bcrypt with hashed credential storage. 
+• Added personalization features including custom assistant name and profile image upload, improving user engagement. 
+EDUCATION 
+B.Tech in Computer Science & Engineering (CSE) — AKTU  |  Pursuing 
+Senior Secondary Education (Class XII) — CBSE Board  |  2023 
+Secondary Education (Class X) — CBSE Board  |  2021 
+CERTIFICATIONS & ACHIEVEMENTS 
+• AI Workshop — COMET, IIT Roorkee (2025): Gained hands-on exposure to applied AI and machine learning techniques. 
+• GEN-AI Camp — AlgoUniversity (2026): Covered Generative AI, Multimodal AI Systems, and NLP. 
+• Java Programming Course — NPTEL (2025): Completed certified course in Java programming and object-oriented design. 
+• Full Stack MERN + Gen AI Projects: Built and deployed 3 production-ready applications combining the MERN stack with generative 
+AI capabilities. 
+• Cloud & Container Deployment: Implemented Docker-based containerization and CI/CD workflows using Vercel and Render. 
