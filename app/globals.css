@@ -181,12 +181,14 @@ main {
   gap: 10px;
   align-items: center;
   padding: 8px 12px;
-  border: 1px solid var(--line);
+  border: 1.5px solid var(--accent);
   border-radius: 99px;
-  color: var(--muted);
+  color: var(--accent);
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  background: rgba(200, 241, 105, 0.08);
+  box-shadow: 0 0 20px rgba(200, 241, 105, 0.15);
 }
 .availability span {
   width: 7px;
@@ -484,7 +486,13 @@ main {
 }
 .muted-section {
   max-width: none;
-  background: rgba(255, 255, 255, 0.02);
+  background: transparent;
+}
+.muted-section .section-heading {
+  max-width: 650px;
+  margin-bottom: 42px;
+  margin-left: 0;
+  text-align: left !important;
 }
 .muted-section > * {
   width: min(1180px, calc(100% - 48px));
@@ -661,11 +669,11 @@ main {
   }
   .mobile-menu {
     display: flex;
-    position: absolute;
-    top: 96px;
+    position: fixed;
+    top: 100px;
     right: 16px;
     left: 16px;
-    z-index: 9;
+    z-index: 99;
     padding: 18px;
     flex-direction: column;
     gap: 16px;
@@ -675,7 +683,7 @@ main {
   }
   .hero {
     grid-template-columns: 1fr;
-    padding-top: 75px;
+    padding-top: 120px;
   }
   .hero-art {
     justify-self: center;
