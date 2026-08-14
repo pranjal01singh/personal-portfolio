@@ -610,7 +610,6 @@ export default function Page() {
         </button>
         <div className="footer-bottom">
           <span>© 2026 Pranjal Singh. All rights reserved.</span>
-          <span>Made with curiosity.</span>
         </div>
       </footer>
     </main>
