@@ -573,7 +573,7 @@ export default function Page() {
           >
             <Globe2 />
             <span>GitHub</span>
-            <strong>Explore my code</strong>
+            <strong>github.com/pranjal01singh</strong>
             <ArrowUpRight />
           </a>
           <a
@@ -584,7 +584,7 @@ export default function Page() {
           >
             <Mail />
             <span>LinkedIn</span>
-            <strong>Let&apos;s connect</strong>
+            <strong>linkedin.com/in/pranjal-singh-3b0636343</strong>
             <ArrowUpRight />
           </a>
         </div>
