@@ -18,46 +18,9 @@ import {
   Trophy,
   X,
 } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
-
-type Project = {
-  title: string;
-  description: string;
-  category: string;
-  tags: string[];
-  accent: string;
-  image: string;
-};
-
-const projects: Project[] = [
-  {
-    title: "AI Employee Digital Twin",
-    description:
-      "AI-powered digital employee automating emails, workflows, tasks, and daily productivity.",
-    category: "Tools ",
-    tags: ["MERN", "Gen AI", "N8N"],
-    accent: "from-violet-400/30 to-transparent",
-    image: "/AI-twin.jpg",
-  },
-  {
-    title: "Intervue",
-    description:
-      "AI-powered mock interview platform generating personalized questions, feedback, and performance insights",
-    category: "Gen AI Full Stack Development",
-    tags: ["MERN", "Gen AI"],
-    accent: "from-cyan-300/25 to-transparent",
-    image: "/ai-interview-bot.webp",
-  },
-  {
-    title: "AI Virtual Assistant",
-    description:
-      "AI-powered virtual assistant enabling real-time voice interaction, personalization, and intelligent responses.",
-    category: "Full Stack Development",
-    tags: ["MERN"],
-    accent: "from-amber-200/25 to-transparent",
-    image: "/virtual.png",
-  },
-];
+import { projects } from "@/lib/projects";
 
 const skills = [
   ["Programming", "Java", "C"],
@@ -383,36 +346,37 @@ export default function Page() {
         </div>
         <div className="project-grid">
           {filtered.map((project, index) => (
-            <motion.article
-              layout
-              key={project.title}
-              className={`project-card ${project.accent}`}
-              initial={{ opacity: 0, y: 18 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: false, amount: 0.3 }}
-              transition={{ delay: index * 0.06, duration: 0.6, ease: "easeOut" }}
-            >
-              <div className="project-visual">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="project-image"
-                />
-                <span>0{index + 1}</span>
-              </div>
-              <div className="project-info">
-                <p className="project-category">{project.category}</p>
-                <h3>
-                  {project.title} <ExternalLink size={16} />
-                </h3>
-                <p>{project.description}</p>
-                <div className="tag-row">
-                  {project.tags.map((tag) => (
-                    <span key={tag}>{tag}</span>
-                  ))}
+            <Link key={project.slug} href={`/project/${project.slug}`}>
+              <motion.article
+                layout
+                className={`project-card ${project.accent}`}
+                initial={{ opacity: 0, y: 18 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false, amount: 0.3 }}
+                transition={{ delay: index * 0.06, duration: 0.6, ease: "easeOut" }}
+              >
+                <div className="project-visual">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="project-image"
+                  />
+                  <span>0{index + 1}</span>
                 </div>
-              </div>
-            </motion.article>
+                <div className="project-info">
+                  <p className="project-category">{project.category}</p>
+                  <h3>
+                    {project.title} <ExternalLink size={16} />
+                  </h3>
+                  <p>{project.description}</p>
+                  <div className="tag-row">
+                    {project.tags.map((tag) => (
+                      <span key={tag}>{tag}</span>
+                    ))}
+                  </div>
+                </div>
+              </motion.article>
+            </Link>
           ))}
         </div>
       </motion.section>
