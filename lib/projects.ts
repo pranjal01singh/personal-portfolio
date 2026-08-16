@@ -96,6 +96,6 @@ export const projects: Project[] = [
     accent: "from-amber-200/25 to-transparent",
     image: "/virtual.png",
     heroImage: "/Assistant.jpg",
-    demoUrl: "https://example.com/ai-virtual-assistant",
+    demoUrl: "https://virtual-assistant-ruby-five.vercel.app/",
   },
 ];
